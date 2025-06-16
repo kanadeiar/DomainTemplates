@@ -1,0 +1,90 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36203.30
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{754FC069-D67B-A9D7-50A1-8D1CA196D8F1}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{97885FEC-06D2-4586-B45B-08B060ED30A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TransactionScript", "TransactionScript", "{A6710F64-D7D9-45D1-BBB6-77A90C839476}"
+	ProjectSection(SolutionItems) = preProject
+		src\TransactionScript\README.md = src\TransactionScript\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TransactionScript", "TransactionScript", "{96666C6C-DC7E-44C0-9B5D-80213D42984C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Inventory", "Inventory", "{0FF9C66D-1F11-487C-8C1D-EED5E710253C}"
+	ProjectSection(SolutionItems) = preProject
+		src\TransactionScript\Inventory\README.md = src\TransactionScript\Inventory\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Inventory", "Inventory", "{1AA68977-B522-4F55-B376-C9FC9A208C15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleTSConsoleApp", "src\TransactionScript\SampleTSConsoleApp\SampleTSConsoleApp.csproj", "{6E0E379F-CACA-4CE3-BAE1-F375B9461A39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionScript.Inventory.PresentationLayer", "src\TransactionScript\Inventory\TransactionScript.Inventory.PresentationLayer\TransactionScript.Inventory.PresentationLayer.csproj", "{0DDD6764-A209-46D8-86C7-2D91E3C38C5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionScript.Inventory.MainLogicLayer", "src\TransactionScript\Inventory\TransactionScript.Inventory.MainLogicLayer\TransactionScript.Inventory.MainLogicLayer.csproj", "{3D53C418-5586-4E75-BBCC-0D734E0CEB1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionScript.Inventory.DataAccessLayer", "src\TransactionScript\Inventory\TransactionScript.Inventory.DataAccessLayer\TransactionScript.Inventory.DataAccessLayer.csproj", "{C84F0AD6-82B0-4839-8775-5558F2C54021}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionScript.Inventory.MainLogicLayer.Tests.Unit", "tests\TransactionScript\Inventory\TransactionScript.Inventory.MainLogicLayer.Tests.Unit\TransactionScript.Inventory.MainLogicLayer.Tests.Unit.csproj", "{2C42FC53-FA07-4CCF-A4DB-14E237DA7696}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionScript.Inventory.PresentationLayer.Tests.Story", "tests\TransactionScript\Inventory\TransactionScript.Inventory.PresentationLayer.Tests.Story\TransactionScript.Inventory.PresentationLayer.Tests.Story.csproj", "{D16DCF9B-50A7-419D-833D-B6E1AA4F705B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E0E379F-CACA-4CE3-BAE1-F375B9461A39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E0E379F-CACA-4CE3-BAE1-F375B9461A39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E0E379F-CACA-4CE3-BAE1-F375B9461A39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E0E379F-CACA-4CE3-BAE1-F375B9461A39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DDD6764-A209-46D8-86C7-2D91E3C38C5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DDD6764-A209-46D8-86C7-2D91E3C38C5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DDD6764-A209-46D8-86C7-2D91E3C38C5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DDD6764-A209-46D8-86C7-2D91E3C38C5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D53C418-5586-4E75-BBCC-0D734E0CEB1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D53C418-5586-4E75-BBCC-0D734E0CEB1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D53C418-5586-4E75-BBCC-0D734E0CEB1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D53C418-5586-4E75-BBCC-0D734E0CEB1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C84F0AD6-82B0-4839-8775-5558F2C54021}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C84F0AD6-82B0-4839-8775-5558F2C54021}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C84F0AD6-82B0-4839-8775-5558F2C54021}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C84F0AD6-82B0-4839-8775-5558F2C54021}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C42FC53-FA07-4CCF-A4DB-14E237DA7696}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C42FC53-FA07-4CCF-A4DB-14E237DA7696}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C42FC53-FA07-4CCF-A4DB-14E237DA7696}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C42FC53-FA07-4CCF-A4DB-14E237DA7696}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D16DCF9B-50A7-419D-833D-B6E1AA4F705B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D16DCF9B-50A7-419D-833D-B6E1AA4F705B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D16DCF9B-50A7-419D-833D-B6E1AA4F705B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D16DCF9B-50A7-419D-833D-B6E1AA4F705B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A6710F64-D7D9-45D1-BBB6-77A90C839476} = {97885FEC-06D2-4586-B45B-08B060ED30A5}
+		{96666C6C-DC7E-44C0-9B5D-80213D42984C} = {36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}
+		{0FF9C66D-1F11-487C-8C1D-EED5E710253C} = {A6710F64-D7D9-45D1-BBB6-77A90C839476}
+		{1AA68977-B522-4F55-B376-C9FC9A208C15} = {96666C6C-DC7E-44C0-9B5D-80213D42984C}
+		{6E0E379F-CACA-4CE3-BAE1-F375B9461A39} = {A6710F64-D7D9-45D1-BBB6-77A90C839476}
+		{0DDD6764-A209-46D8-86C7-2D91E3C38C5E} = {0FF9C66D-1F11-487C-8C1D-EED5E710253C}
+		{3D53C418-5586-4E75-BBCC-0D734E0CEB1C} = {0FF9C66D-1F11-487C-8C1D-EED5E710253C}
+		{C84F0AD6-82B0-4839-8775-5558F2C54021} = {0FF9C66D-1F11-487C-8C1D-EED5E710253C}
+		{2C42FC53-FA07-4CCF-A4DB-14E237DA7696} = {1AA68977-B522-4F55-B376-C9FC9A208C15}
+		{D16DCF9B-50A7-419D-833D-B6E1AA4F705B} = {1AA68977-B522-4F55-B376-C9FC9A208C15}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC42A042-F72F-4149-9696-8A7322BEAED8}
+	EndGlobalSection
+EndGlobal
